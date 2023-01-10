@@ -1,0 +1,120 @@
+header{
+    background: #8A1538;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 20vh;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.4);
+  }
+  /* header::after{
+    content: '';
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    height: 80%;
+    width: 20%;
+    background: url(../img/qatar.png) top left no-repeat;
+    background-size: contain;
+  } */
+  header h1{
+    padding: 2rem 0 1rem 0;
+    font-size: 1.2rem;
+  }
+  header nav{
+    padding: 1rem 0;
+  }
+  header nav a{
+    text-decoration: none;
+    min-width: 150px;
+    color:white;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  nav a.active{
+    border-bottom: 2px  solid #F8F9FA;
+    border-top-right-radius:5px ;
+    border-top-left-radius:5px ;
+    background-color: #a92e53; 
+    border-bottom: 2px  solid #F8F9FA;
+  }
+  header nav a:hover{
+    background-color: #5e0d25;
+  }
+  header .user-container{
+    position: absolute;
+    top:0;
+    right: 1rem;
+    background-color:#5E0D25 ;
+    padding: 0.8rem 1rem;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 3px 4px 3px rgba(0,0,0,0.56); 
+    box-shadow: 0px 3px 4px 3px rgba(0,0,0,0.56);
+  }
+  .user-container span{
+    display: inline-block;
+    padding: 0 0.5rem;
+  }
+
+
+  footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: var(--negro);
+  }
+  
+  footer::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--naranja);
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+  .logo img{
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .logo small{
+    color: var(--naranja);
+    padding-bottom: 10px;
+  }
+  
+  .aboutus{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+  .aboutus a{
+    text-decoration: none;
+    color: var(--naranja);
+    margin-top: 10px;
+  }
+  
+  .aboutus a:hover{
+    cursor: pointer;
+  }
