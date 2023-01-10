@@ -1,0 +1,48 @@
+footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: var(--negro);
+  }
+  
+  footer::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--naranja);
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+  .logo img{
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .logo small{
+    color: var(--naranja);
+    padding-bottom: 10px;
+  }
+  
+  .aboutus{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+  .aboutus a{
+    text-decoration: none;
+    color: var(--naranja);
+    margin-top: 10px;
+  }
+  
+  .aboutus a:hover{
+    cursor: pointer;
+  }
