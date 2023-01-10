@@ -1,0 +1,12 @@
+.products-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, auto);
+    padding: 4rem;
+}
+.card {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #eee;
+}
