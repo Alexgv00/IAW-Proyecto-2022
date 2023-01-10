@@ -1,25 +1,24 @@
 import React from 'react'
 import {FaRegComments, FaConciergeBell} from "react-icons/fa"
 import { Link } from 'react-router-dom'
+import "./ListRestaurant.css"
 
 const ListRestaurants = ({restaurants}) => {
   return (
     <section className='grid-restaurants'>
         {
             restaurants.map(restaurant =>
-                    <Link to={`/restaurants/${restaurant._id}`} className="prueba" >
+                    <Link to={`/restaurants/${restaurant._id}`} className="container" key={restaurant._id}>
                         <article className="card">
-                            <div className='card-l'>
                                 <img src={`/assets/img/restaurants/${restaurant.photo}`} alt={restaurant.photo} />
-                            </div>
-                            <div className='card-r'>
+                            <div className='description'>
                                 <h4>{restaurant.name}</h4>
                                 <p>{restaurant.description}</p>
-                            </div>
-                            <div className='card-f'>
+                            <div className='counts'>
                                     <span>{restaurant.stars}</span>
                                     <span>{restaurant.comments.length}<FaRegComments/></span>
                                     <span>{restaurant.dishes.length}<FaConciergeBell/></span>
+                            </div>
                             </div>
                         </article>
                     </Link>

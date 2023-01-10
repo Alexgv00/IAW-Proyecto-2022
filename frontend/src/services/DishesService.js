@@ -1,15 +1,15 @@
-import { URL_API_USERS, HEADERS } from '../constants/http_constants.js';
+import { URL_API_DISHES, HEADERS } from '../constants/http_constants.js';
 
-export default class UserService {
+export default class CommentService {
 
-    static getUsers() {
-        return fetch(URL_API_USERS)
+    static getDishes() {
+        return fetch(URL_API_DISHES)
             .then(res => res.json())
             .catch(error => error);
     }
 
-    static getUserById(id) {
-        return fetch(`${URL_API_USERS}/${id}`)
+    static getDishesById(id) {
+        return fetch(`${URL_API_DISHES}/${id}`)
             .then(res => res.json())
             .catch(error => error);
     }
@@ -20,12 +20,10 @@ export default class UserService {
             headers: HEADERS,
             body: JSON.stringify(params)
         };
-        return fetch(URL_API_USERS, options)
+        return fetch(URL_API_DISHES, options)
             .then(response => response.json())
             .catch(error => error);
     }
-
-    //TODO loginService
 
     static update(params) {
         const options = {
@@ -33,14 +31,14 @@ export default class UserService {
             headers: HEADERS,
             body: JSON.stringify(params)
         };
-        return fetch(URL_API_USERS, options)
+        return fetch(URL_API_DISHES, options)
             .then(response => response.json())
             .catch(error => error);
     }
 
     static delete(id) {
         const options = { method: 'DELETE' };
-        return fetch(`${URL_API_USERS}/${id}`, options)
+        return fetch(`${URL_API_DISHES}/${id}`, options)
             .then(response => response.json())
             .catch(error => error);
     }

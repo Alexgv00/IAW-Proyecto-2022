@@ -54,7 +54,7 @@ export const register = async (req, res) => {
         let user = new Users ({
             nickname: req.body.nickname,
             password: hashedPass,
-            email:req.body.email,
+            email: req.body.email,
             avatar: req.body.avatar,
             role: req.body.role
         });

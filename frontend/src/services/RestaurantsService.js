@@ -8,6 +8,7 @@ export default class RestaurantService {
             .catch(error => error);
     }
 
+    //TODO filtro por precio y query
     static getRestaurantById(id) {
         return fetch(`${URL_API_RESTAURANTS}/${id}`)
             .then(res => res.json())

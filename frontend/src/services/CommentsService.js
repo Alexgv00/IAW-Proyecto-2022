@@ -1,6 +1,6 @@
 import { URL_API_COMMENTS, HEADERS } from '../constants/http_constants.js';
 
-export default class Commentservice {
+export default class CommentService {
 
     static getComments() {
         return fetch(URL_API_COMMENTS)
@@ -8,7 +8,7 @@ export default class Commentservice {
             .catch(error => error);
     }
 
-    static getUserById(id) {
+    static getCommentById(id) {
         return fetch(`${URL_API_COMMENTS}/${id}`)
             .then(res => res.json())
             .catch(error => error);
