@@ -13,5 +13,5 @@
 ## Endpoints
 
 ### Queries
-http://localhost:8800/restaurants/
+http://localhost:8800/foodFinder/
 
