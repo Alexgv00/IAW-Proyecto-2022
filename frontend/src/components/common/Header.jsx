@@ -1,6 +1,7 @@
 import React, {useContext} from 'react'
 import UserContext from '../../context/UserContext'
 import Navigation from './Navigation'
+import "./Header.css"
 
 const Header = ({item}) => {
     const userDataContext = useContext(UserContext);

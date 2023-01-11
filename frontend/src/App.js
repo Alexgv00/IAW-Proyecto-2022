@@ -14,7 +14,8 @@ function App() {
           <Route element={<ListRestaurantsPage />} path="/" />
           <Route element={<RestaurantDetailPage />} path="/restaurants/:idRestaurant"/>
         </Routes>
-        <Footer />
+        {/* TODO Arreglar estilos Footer */}
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   </UserState>

@@ -4,7 +4,7 @@ const RestaurantDetail = ({restaurant}) => {
        
   return (
     <article className='card-e'>
-        <div className='card-image'>
+        {/* <div className='card-image'>
             <img src={`/assets/img/restaurants/${restaurant.photo}`} alt={restaurant.photo} />
         </div>
         <div className='descriptions'>
@@ -13,7 +13,7 @@ const RestaurantDetail = ({restaurant}) => {
         </div>
         <div className='comments'>
 
-        </div>
+        </div> */}
     </article>
   )
 }
