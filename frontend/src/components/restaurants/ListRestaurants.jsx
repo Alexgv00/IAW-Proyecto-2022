@@ -15,7 +15,7 @@ const ListRestaurants = ({restaurants}) => {
                                 <h4>{restaurant.name}</h4>
                                 <p>{(restaurant.description.length>150)?restaurant.description.substring(0,100)+'(...)':restaurant.description}</p>
                             <div className='counts'>
-                                    <span>{restaurant.stars} Stars </span>
+                                    <span>{/*restaurant.stars*/} Stars </span>
                                     <span>{restaurant.comments.length}<FaRegComments/></span>
                                     <span>{restaurant.dishes.length}<FaConciergeBell/></span>
                             </div>
