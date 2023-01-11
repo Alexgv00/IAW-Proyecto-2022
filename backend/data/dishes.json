@@ -4,6 +4,7 @@
   },
   "name": "Strogonoff de pollo",
   "description": "Jugosa pechuga de pollo troceada con champiñones y salsa. Acompañado de arroz jazmín",
+  "price": 18,
   "allergies": "Gluten, lacteo",
   "photo": "https://www.carta360.com/Coyunda/IMAGENES/811.jpg",
   "restaurant": {
@@ -18,6 +19,7 @@
   },
   "name": "Arroz frito tres delicias",
   "description": "Arroz cocido que se saltea a fuego alto y muy rápido en un wok con verduras como cebolla china, raíces chinas, tortilla de huevo en trozos, carnes, salsa de soja y aceite.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.restaurante-chino-granmuralla.com/wp-content/uploads/2018/03/arroz-tres-delicias-600x400.jpg",
   "restaurant": {
@@ -32,6 +34,7 @@
   },
   "name": "Rollitos de primavera",
   "description": "Un gran rollo frito relleno de trozos de jamón cocido o pollo, tiras de tortilla, brotes de soja y otras verduras. No se trata de un rollo de huevo, ya que este está preparado con una lámina hecha de trigo.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.restaurante-chino-granmuralla.com/wp-content/uploads/2019/01/Rollitos-Jamon-York-600x400.jpg",
   "restaurant": {
@@ -46,6 +49,7 @@
   },
   "name": "Pollo al limón",
   "description": "Trozos de pechuga de pollo rebozados y crujientes, que se sirven cubiertos con una salsa de limón dulce y picante. Se come mejor como guarnición con arroz blanco o junto con otras guarniciones chinas.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.restaurante-chino-granmuralla.com/wp-content/uploads/2019/01/pollo-al-limon-600x400.jpg",
   "restaurant": {
@@ -60,6 +64,7 @@
   },
   "name": "Pollo con almendras",
   "description": "Es un segundo plato de la cocina china. Consiste en pequeños trozos de pollo tierno envueltos en una salsa cremosa. El sabor característico de este plato viene dado por una sabrosa mezcla de salsa de soja, jengibre y almendras, todo ello cocinado en un wok, lo que le da un toque asiático inconfundible.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.restaurante-chino-granmuralla.com/wp-content/uploads/2019/01/pollo-con-almendras-600x400.jpg",
   "restaurant": {
@@ -74,6 +79,7 @@
   },
   "name": "Ensalada china",
   "description": "Una ensalada sencilla, que incorpora lechuga, zanahoria y jamón cocido. Tiene un toque especial aportado por el agar-agar, un ingrediente que no puede faltar en este plato. Además, se adereza con el famoso aliño blanco agridulce, un secreto culinario que es toda una delicia al paladar, adictiva y sabrosa a la vez.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.restaurante-chino-granmuralla.com/wp-content/uploads/2018/03/ensalada_china-600x400.jpg",
   "restaurant": {
@@ -88,6 +94,7 @@
   },
   "name": "Ostras frescas",
   "description": "Ostras crudas, vivas y acompañadas de un chorrito de limón que intensifica el sabor original de las ostras.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.puralouzao.es/uploads/COn6L1oW/736x0_281x281/pura-louzao-ostras-frescas.jpg",
   "restaurant": {
@@ -102,6 +109,7 @@
   },
   "name": "Angulas",
   "description": "Elaborado a base de pescado picado hasta crear una base de surimi, de origen japonés.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.puralouzao.es/uploads/jdHFBJuT/767x0_2560x0/pura-louzao-angulas.jpg",
   "restaurant": {
@@ -116,6 +124,7 @@
   },
   "name": "Almejas de carril",
   "description": "Es un producto de gran calidad, para consumir al natural, con limón o asada",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.puralouzao.es/uploads/oN8A23Dl/767x0_2560x0/pura-louzao-almejas-de-carril.jpg",
   "restaurant": {
@@ -130,6 +139,7 @@
   },
   "name": "Merluza de pincho",
   "description": "Merluza pescada 100% con anzuelo y es capturada una a una. De esta forma no recibe ningún golpe y su carne es más firme y sabrosa. Es la más valorada, ya que su calidad es superior al resto de merluzas que hay en el mercado.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.puralouzao.es/uploads/RQfdL73o/767x0_2560x0/pura-louzao-merluza-de-pincho.jpg",
   "restaurant": {
@@ -144,6 +154,7 @@
   },
   "name": "Chipirones",
   "description": "Pequeños trozos de calamares cocinados en su propia tinta.",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.puralouzao.es/uploads/llWU20Ua/767x0_2560x0/pura-louzao-chipirones.jpg",
   "restaurant": {
@@ -158,6 +169,7 @@
   },
   "name": "Negrito marinado",
   "description": "Negrito marinado con leche de tigre de frutos rojos y arroz glutinoso fermentado",
+  "price": 18,
   "allergies": "",
   "photo": "https://imagenes.elpais.com/resizer/NeB342pzkQ4VX7bDL-UlxUljMvA=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/KYHHBPGJNTH6MLZBETU7FEBRII.jpg",
   "restaurant": {
@@ -172,6 +184,7 @@
   },
   "name": "Coquelet con especias",
   "description": "Coquelet con especias, mole de kaali Daal y sambal de coco",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.afuegolento.com/img_db/timthumb.php?src=img_db/interviews/2021/01/interview-6006f31b12a5d.jpg&w=800&z=1",
   "restaurant": {
@@ -186,6 +199,7 @@
   },
   "name": "Canelón de pato",
   "description": "Canelón de pato confitado con calabaza, castaña y aire de pomelo",
+  "price": 18,
   "allergies": "",
   "photo": "https://academiareshape.com/wp-content/uploads/IMG_4095.jpg",
   "restaurant": {
@@ -200,6 +214,7 @@
   },
   "name": "Cochinillo con fondant de boniato",
   "description": "Cochinillo con fondant de boniato, trompetas de la muerte, frutos rojos y aceite de oxalis",
+  "price": 18,
   "allergies": "",
   "photo": "https://media-cdn.tripadvisor.com/media/photo-s/10/f3/3a/5f/cochinillo-confitado.jpg",
   "restaurant": {
@@ -214,6 +229,7 @@
   },
   "name": "Ciervo trufado",
   "description": "Ciervo trufado con yema de corral, esfera de su paté con casis y bryndza",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.colmadoezcaray.com/wp-content/uploads/2021/07/pate-ciervo.jpeg",
   "restaurant": {
@@ -228,6 +244,7 @@
   },
   "name": "Sopa de Gulash",
   "description": "Auténticamente húngara y picante",
+  "price": 18,
   "allergies": "",
   "photo": "https://t1.rg.ltmcdn.com/es/posts/7/7/2/gulash_o_goulash_hungaro_55277_orig.jpg",
   "restaurant": {
@@ -242,6 +259,7 @@
   },
   "name": "Medallones de solomillo",
   "description": "130 gr. de sabrosos medallones de solomillo de ternera, con nuestras verduras frescas salteadas y dados de tomate y cebolla en pesto de albahaca",
+  "price": 18,
   "allergies": "",
   "photo": "https://i0.wp.com/commememucho.com/wp-content/uploads/2018/05/solomillo-a-la-pimienta-verde1-e1526486890507.jpg",
   "restaurant": {
@@ -256,6 +274,7 @@
   },
   "name": "Crema de patata",
   "description": "Crema de patata energética y vigorizante, con trocitos de bacon",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.divinacocina.es/wp-content/uploads/crema-de-patata.jpg",
   "restaurant": {
@@ -270,6 +289,7 @@
   },
   "name": "Salchichas alemanas",
   "description": "6 ud. de salchichas alemanas con mostaza",
+  "price": 18,
   "allergies": "",
   "photo": "https://okdiario.com/img/2019/02/18/5-maneras-de-cocinar-salchichas-alemanas.jpg",
   "restaurant": {
@@ -284,6 +304,7 @@
   },
   "name": "Tartar recién preparado",
   "description": "190 gr. carne picada de vacuno, con Pan BLOCK HOUSE crujiente, o como entrante 95 gr.",
+  "price": 18,
   "allergies": "",
   "photo": "https://cdn5.recetasdeescandalo.com/wp-content/uploads/2018/07/Steak-tartar-de-carne-la-receta-con-el-mejor-alino-que-hayas-probado.jpg",
   "restaurant": {
@@ -298,6 +319,7 @@
   },
   "name": "Parmiggiana de berenjenas",
   "description": "Esta es una receta tradicional del sur de Italia de la que han surgido muchas variantes, pero básicamente los ingredientes son las berenjenas (melanzane), el queso parmesano, la mozzarella, la salsa de tomate y como hierba aromática, la albahaca.",
+  "price": 18,
   "allergies": "",
   "photo": "https://unaitalianaenlacocina.es/wp-content/uploads/DSC_9052.jpg",
   "restaurant": {
@@ -312,6 +334,7 @@
   },
   "name": "Burrata con carpaccio de tomate",
   "description": "Esta ensalada es el paradigma de la sobriedad: una base de productos sencillos pero sabrosos. Por eso es tan importante hacerse con buena materia prima. Un buen tomate rosa, carnoso y con sabor profundo, una burrata cremosa y de sabor potente y el resto de ingredientes para resaltar su sabor: albahaca fresca, un buen aceite de oliva virgen extra, escamas de sal… y como toque final, un buen pesto casero.",
+  "price": 18,
   "allergies": "",
   "photo": "https://i0.wp.com/seabreunaventana.com/wp-content/uploads/2018/09/1836866275-01.jpeg",
   "restaurant": {
@@ -326,6 +349,7 @@
   },
   "name": "Pennette all’arrabbiata",
   "description": "Plato de pasta picante con tomate entero de lata, ajo y pimienta de Cayena",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.laragazzacolmattarello.com/wp-content/uploads/2020/05/Penne-allarrabbiata_7899.jpg",
   "restaurant": {
@@ -340,6 +364,7 @@
   },
   "name": "Risotto de parmesano",
   "description": "Risotto de parmesano con carillera de buey",
+  "price": 18,
   "allergies": "",
   "photo": "https://img-global.cpcdn.com/recipes/1886602_2aa85e0aa7c9e8cb/680x482cq70/rissotto-de-carrillera-con-parmesano-foto-principal.jpg",
   "restaurant": {
@@ -354,6 +379,7 @@
   },
   "name": "Pizza cuatro quesos",
   "description": "Pizza de cuatro quesos: Mozzarella, gorgonzola, queso de cabra, provolone y orégano",
+  "price": 18,
   "allergies": "",
   "photo": "https://unareceta.com/wp-content/uploads/2014/05/pizza-4-quesos.jpg",
   "restaurant": {
@@ -368,6 +394,7 @@
   },
   "name": "Paella mixta",
   "description": "Paella mixta con marisco, carne y verduras es una receta de arroz deliciosa y que no defrauda ya que los diferentes ingredientes se dedican a potenciar el sabor de los demás y la combinación no puede ser mejor.",
+  "price": 18,
   "allergies": "",
   "photo": "https://cdn6.recetasdeescandalo.com/wp-content/uploads/2019/09/Paella-mixta-con-marisco-carne-y-verduras.-Receta-de-arroz-deliciosa.jpg",
   "restaurant": {
@@ -382,6 +409,7 @@
   },
   "name": "Bistec",
   "description": "Bistec al ajillo",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.jamieoliverenespañol.com/wp-content/uploads/2021/05/El-Bistec-perfecto-e1622406895617.jpg",
   "restaurant": {
@@ -396,6 +424,7 @@
   },
   "name": "Sopa de pollo",
   "description": "Sopa de pallo con zanahoria, trozos de pollo y perejil",
+  "price": 18,
   "allergies": "",
   "photo": "https://okdiario.com/img/2018/09/29/sopa-de-fideos-con-pollo.jpg",
   "restaurant": {
@@ -410,6 +439,7 @@
   },
   "name": "Entrecot",
   "description": "Entrecot de tenera con verduras o patatas fritas y cebolla",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.pequerecetas.com/wp-content/uploads/2022/10/entrecot-a-la-plancha-poco-hecho-receta.jpg",
   "restaurant": {
@@ -431,6 +461,7 @@
   "category": {
     "$oid": "63bdb57f606b7d4ebb11472a"
   },
+  "price": 18,
   "allergies": ""
 },{
   "_id": {
@@ -438,6 +469,7 @@
   },
   "name": "Iskender Kebap",
   "description": "Iskender Kebap con carne de Kebap salsa de tomate y yogur",
+  "price": 18,
   "allergies": "",
   "photo": "http://www.restaurantebellaistambul.com/img/photos/img_bella(8).jpg",
   "restaurant": {
@@ -452,6 +484,7 @@
   },
   "name": "Dürüm Kebap",
   "description": "Dürüm Kebap con carne de Kebap salsa de tomate y yogur",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.antena3.com/newa3flash/modulos_blancos/cocinatis/doner.jpg",
   "restaurant": {
@@ -466,6 +499,7 @@
   },
   "name": "Lahmacum con esnalada",
   "description": "Lahmacum con esnalada con carne de Kebap salsa de tomate y yogur",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.foodplanet.es/wp-content/uploads/2022/03/Lahmacun-445x445.png",
   "restaurant": {
@@ -480,6 +514,7 @@
   },
   "name": "Pizza kebab",
   "description": " Pizza con carne de kebap",
+  "price": 18,
   "allergies": "",
   "photo": "http://www.recetasdiarias.com/wp-content/uploads/2010/01/pizza-kebab.jpg",
   "restaurant": {
@@ -494,6 +529,7 @@
   },
   "name": "Sucuk jamón y queso",
   "description": "Sucuk de jamón y queso",
+  "price": 18,
   "allergies": "",
   "photo": "https://restaurantebellaistambul.com/img/plato-pide.png",
   "restaurant": {
@@ -508,6 +544,7 @@
   },
   "name": "Sashimi",
   "description": "6 ud. de sashimi de salmón",
+  "price": 18,
   "allergies": "",
   "photo": "https://esenciadelmar.es/wp-content/uploads/2020/11/salmon-sashimi-esencia-del-mar.jpg",
   "restaurant": {
@@ -522,6 +559,7 @@
   },
   "name": "Nigiris sushi",
   "description": "6 ud. nigiris sushi de salmón",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.japonalternativo.com/wp-content/uploads/2020/04/receta-de-sushi-de-salmon-crudo-1024x775.jpg",
   "restaurant": {
@@ -536,6 +574,7 @@
   },
   "name": "Gunkan",
   "description": "6 ud. gunkan de salmón",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.ginza.ee/image_files/big/1565776889Sake%20gunkan.jpg",
   "restaurant": {
@@ -550,6 +589,7 @@
   },
   "name": "Ramen con pollo",
   "description": "Ramen con poll, seta y un huevo",
+  "price": 18,
   "allergies": "",
   "photo": "https://static-sevilla.abc.es/media/gurmesevilla/2020/04/ramen-pollo1920.jpg",
   "restaurant": {
@@ -564,6 +604,7 @@
   },
   "name": "Temaki",
   "description": "Temaki con aguacate y salmón",
+  "price": 18,
   "allergies": "",
   "photo": "https://www.cocinista.es/download/bancorecursos/recetas/temaki-sushi.jpg",
   "restaurant": {
@@ -578,6 +619,7 @@
   },
   "name": "Nachos con queso",
   "description": "Nachos tex mex con queso y orégano.",
+  "price": 18,
   "allergies": "Gluten, lacteo",
   "photo": "https://www.carta360.com/Coyunda/IMAGENES/801.jpg",
   "restaurant": {
@@ -592,6 +634,7 @@
   },
   "name": "Tripe quesadilla",
   "description": "Prueba la mezcla de nuestras tres quesadillas diferentes.",
+  "price": 18,
   "allergies": "Gluten, lacteo",
   "photo": "https://www.carta360.com/Coyunda/IMAGENES/912.jpeg",
   "restaurant": {
@@ -606,6 +649,7 @@
   },
   "name": "Tortilla francesa",
   "description": "Tortilla francesa, jamón york y queso con patatas fritas caseras y ensalada.",
+  "price": 18,
   "allergies": "Gluten, huevos, lacteo",
   "photo": "https://www.carta360.com/Coyunda/IMAGENES/829.jpg",
   "restaurant": {
@@ -620,6 +664,7 @@
   },
   "name": "Bratwurst",
   "description": "Pan de perrito o baguette, salchicha blanca con cebolla frita y con un toque de cebolla crujiente.",
+  "price": 18,
   "allergies": "Gluten, lacteo",
   "photo": "https://www.carta360.com/Coyunda/IMAGENES/892.png",
   "restaurant": {
