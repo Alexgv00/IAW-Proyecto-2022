@@ -18,6 +18,10 @@ const dishesSchema = new Schema({
         type: mongoose.Schema.ObjectId,
         ref: 'Restaurants'
     },
+    categories: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Categories'
+    },
     photo: {
         type: String
     },

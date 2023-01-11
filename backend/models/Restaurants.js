@@ -16,12 +16,18 @@ const restaurantsSchema = new Schema({
     },
     category:{
         type: mongoose.Schema.ObjectId,
-        ref: 'Category'
+        ref: 'Categories'
     },
-    stars:{
-        type: Number,
-        required: true
-    },
+    stars:[{
+        user:{
+            type: mongoose.Schema.ObjectId,
+            ref: 'Users'
+        },
+            value:{
+            type: Number
+        }
+        }
+    ],
     comments:[{
         type: mongoose.Schema.ObjectId,
         ref: 'Comments'
@@ -37,7 +43,7 @@ const restaurantsSchema = new Schema({
     phone: {
         type: String
     },
-    dishes: [{
+    dishes:[{
         type: mongoose.Schema.ObjectId,
         ref:'Dishes'
     }]
