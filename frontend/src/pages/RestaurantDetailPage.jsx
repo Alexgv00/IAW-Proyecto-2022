@@ -5,13 +5,11 @@ import RestaurantDetail from '../components/restaurants/RestaurantDetail'
 import RestaurantService from '../services/RestaurantsService'
 
 const RestaurantDetailPage = () => {
-    const [restaurant, setRestaurant] = useState()
+    const [restaurant, setRestaurant] = useState({})
     const {idRestaurant} = useParams()
     useEffect(() => {
         RestaurantService.getRestaurantById(idRestaurant).then(data=> setRestaurant(data))
     }, [])
-
-    console.log(restaurant)
   return (
     <>
         <Header/>
