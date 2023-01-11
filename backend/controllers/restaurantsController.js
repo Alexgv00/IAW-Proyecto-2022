@@ -6,7 +6,7 @@ import Comments from '../models/Comments.js';
 export const showRestaurants = async (req, res) => {
     try {
         // obtener todos los restaurants
-        const documents = await Restaurants.find({}).populate("dishes").populate("category").populate("comments");
+        const documents = await Restaurants.find({});
         res.json(documents);
     } catch (error) {
         console.log(error);
@@ -20,7 +20,6 @@ export const searchRestaurants = async (req, res) => {
         const documents = await Restaurants.find({ name: new RegExp(query, 'i') })
         .populate('comments')
         .populate('dishes')
-        .populate('category')
         
         res.json(documents);
     } catch (error) {
@@ -38,7 +37,7 @@ export const searchRestaurantsByPrice = async (req, res) => {
                 {precio: { $lte: maxPrice }},
             ]
          })
-        .populate("category");
+        .populate("categoria");
         res.json(documents);
     } catch (error) {
         console.log(error);
