@@ -1,12 +1,11 @@
 // import Restaurants from '../models/Restaurants.js';
 import Dishes from '../models/Dishes.js';
-// import Dishes from '../models/Dishes.js';
 
 // Muestra todos los restaurants
 export const showDishes = async (req, res) => {
     try {
         // obtener todos los dishes
-        const documents = await Dishes.find({});
+        const documents = await Dishes.find({}).populate("restaurant").populate("category");
         res.json(documents);
     } catch (error) {
         console.log(error);
@@ -18,7 +17,7 @@ export const searchDishes = async (req, res) => {
         // obtener el query de la URL
         const { query } = req.params;
         const documents = await Restaurants.find({ name: new RegExp(query, 'i') })
-        .populate()
+        .populate("restaurant").populate("category")
         
         res.json(documents);
     } catch (error) {
@@ -26,14 +25,14 @@ export const searchDishes = async (req, res) => {
     }
 };
 
-// export const searchCursosPorPrecio = async (req, res) => {
+// export const searchDishesPorPrice = async (req, res) => {
 //     try {
 //         // obtener el query de la URL
-//         const {minPrecio, maxPrecio} = req.params; // req.params.minPrecio
-//         const documents = await Cursos.find(  { $and:
+//         const {minPrice, maxPrice} = req.params; // req.params.minPrice
+//         const documents = await Dishes.find(  { $and:
 //             [
-//                 {precio: { $gte: minPrecio } },
-//                 {precio: { $lte: maxPrecio }},
+//                 {price: { $gte: minPrice } },
+//                 {price: { $lte: maxPrice }},
 //             ]
 //          })
 //         .populate("restaurant");

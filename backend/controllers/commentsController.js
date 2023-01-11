@@ -13,7 +13,7 @@ export const showComments = async (req, res) => {
     }
 };
 
-export const searchCommentes = async (req, res) => {
+export const searchComments = async (req, res) => {
     try {
         // obtener el query de la URL
         const { query } = req.params;
