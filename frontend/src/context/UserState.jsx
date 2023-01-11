@@ -12,14 +12,14 @@ const UserState = (props) => {
     const [user, setUser] = useState(userInit)
 
     const getUser = async () => {
-        const response = await fetch('/data/user.json');
-        const data = await response.json();
+        // const response = await fetch('/data/user.json');
+        // const data = await response.json();
         setUser({
             ...user,
-            "name": data.name,
-            "surnames": data.surnames,
-            "language": data.language,
-            "role": data.role
+            // "name": data.name,
+            // "surnames": data.surnames,
+            // "language": data.language,
+            // "role": data.role
 
         });
     }

@@ -6,7 +6,7 @@ import Comments from '../models/Comments.js';
 export const showRestaurants = async (req, res) => {
     try {
         // obtener todos los restaurants
-        const documents = await Restaurants.find({}).populate("dishes").populate("category").populate("comments");
+        const documents = await Restaurants.find({});
         res.json(documents);
     } catch (error) {
         console.log(error);
