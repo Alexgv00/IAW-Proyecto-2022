@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { FaEdit } from 'react-icons/fa';
 import './Login.css';
 import UsersService from "../../services/UsersService.js"
@@ -24,6 +24,7 @@ const Login = () => {
         document.getElementById("frm-user").reset();
         localStorage.setItem("userSession", JSON.stringify(data))
         inicio(-1)
+        window.location.reload(false)
       })
     }
   return (
@@ -37,7 +38,9 @@ const Login = () => {
        <input type="password" id="password" placeholder="Enter Password" name="password" required ref={inputPassword}/>
 
        <section className='panelButton'>
+         {/* <Link to="/"> */}
          <button type="submit"><FaEdit size='16' /> Login</button>
+         {/* </Link> */}
        <label> 
          {/* TODO: Implementar sessión storage o local storage */}
          <input type="checkbox" defaultChecked="checked" name="remember"/><span>Remember me</span>

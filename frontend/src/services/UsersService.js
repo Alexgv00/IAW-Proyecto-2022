@@ -20,7 +20,7 @@ export default class UserService {
             headers: HEADERS,
             body: JSON.stringify(params)
         };
-        return fetch(URL_API_USERS, options)
+        return fetch(URL_API_USERS/"register", options)
             .then(response => response.json())
             .catch(error => error);
     }

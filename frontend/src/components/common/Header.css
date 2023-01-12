@@ -74,9 +74,14 @@ header .user-container{
     background-color:  #343a40;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 8px 8;
     border: none;
     cursor: pointer;
     width: 100%;
     border-radius: 15%;
+}
+.btn-section{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }

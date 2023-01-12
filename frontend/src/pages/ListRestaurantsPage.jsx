@@ -9,7 +9,7 @@ const ListRestaurantsPage = () => {
   
     useEffect(() => {
         RestaurantService.getRestaurants().then(data=> setRestaurants(data))
-    }, [localStorage])
+    }, [])
   return (
     <>
         <Header item="home"/>
