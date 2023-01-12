@@ -13,7 +13,7 @@ import usersRoutes from "./routes/usersRoutes.js";
 
 // Conexión BD
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/foodfinder');
+mongoose.connect('mongodb://localhost:27017/foodFinder');
 
 const app = express();
 app.use(express.json());
