@@ -25,7 +25,7 @@ Finalmente nos decantamos por realizar el pryecto de restaurantes, pues consider
 
 ## Nuestra historia  
 
-Somos unos estudiantes de segundo año de ASIX, que deseabamos tener la oportunidad de demostrar nuestro desempeño en un proyecto que pusiera a prueba todas nuestras cualidades en un gran desafío de programación. No obstante, un Lunes 9 de Enero del 2023, una gran catástrofe nos añadiría un obstáculo más a la ecuación. Debido a un error de capa 8, el frontend entero fue borrado e imposible de recuperar, lo que nos dejó con un corto plazo de 2 días para rehacerlo todo de 0.  
+Somos unos estudiantes de segundo año de ASIX, que deseabamos tener la oportunidad de demostrar nuestro desempeño en un proyecto que pusiera a prueba todas nuestras cualidades en un gran desafío de programación. No obstante, un Lunes 9 de Enero del 2023, una gran catástrofe nos añadiría un obstáculo más a la ecuación. Debido a un error de capa 8, el frontend entero fue borrado e imposible de recuperar, lo que nos dejó con un corto plazo de 2 días para rehacerlo todo el frontend desde cero.  
 
 ## Tecnologías y dependencias
 
@@ -40,6 +40,14 @@ En este proyecto MERN, utilizaremos las siguientes librerías:
 
  Con vista a furuto, nos vemos capaces de poder implementar más seguridad al inicio de sesión del usuario añadiendo validaciones del token, guardandolo en cookies en lugar del localStorage, y validaciones en formularios de la página principal.
  Queremos añadir nuevas funcionalidades como filtros de búsqueda y un mejor diseño de base de datos y preparar un mejor diseño para lanzar nuestra SPA en una fase beta para su testeo en un grupo pequeño de clientes.  
+
+### En cuanto tiempo podríamos tener una base inicial?
+
+Para tener una SPA disponible para cara al público, consideramos que en un plazo de entre uno y dos meses podríamos tener todas las funcionalidades necesarias para que el proyecto de FoodFinder salga adelante.
+
+## Quieres apoyar el proyecto?
+
+Puntúanos de forma positiva en [classroom](https://classroom.google.com/u/0/c/NDg5ODQ1MjUxODk5?hl=es) o ayuda de forma directa en [classroom](https://classroom.google.com/u/0/c/NDg5ODQ1MjUxODk5?hl=es).
 
 ## Enlace de Git hub  
 
