@@ -2,7 +2,7 @@ import './RestaurantDetail.css'
 import React, { useState } from 'react'
 
 const RestaurantDetail = ({restaurant}) => {
-  console.log(restaurant)   
+  console.log(restaurant.dishes)   
   
   return (
     <article className='card-e'>
@@ -17,7 +17,7 @@ const RestaurantDetail = ({restaurant}) => {
           <p>{restaurant.direction}</p>
         </div>
       </div>
-      <div className='dishes'>
+      {/* <div className='dishes'>
         {restaurant.dishes.map(dish =>
           <article className="card">
             <img src={`${dish.photo}`} alt={dish.photo} />
@@ -28,7 +28,7 @@ const RestaurantDetail = ({restaurant}) => {
             </div>
           </article>  
         )}
-      </div>
+      </div> */}
         
       <div className='comments'>
 
