@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import Header from '../components/common/Header'
 import ListRestaurants from '../components/restaurants/ListRestaurants'
 import RestaurantService from '../services/RestaurantsService'
 
+
 const ListRestaurantsPage = () => {
     const [restaurants, setRestaurants] = useState([])
+  
     useEffect(() => {
         RestaurantService.getRestaurants().then(data=> setRestaurants(data))
-    }, [])
+    }, [localStorage])
   return (
     <>
         <Header item="home"/>
