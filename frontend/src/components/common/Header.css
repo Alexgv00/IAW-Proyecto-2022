@@ -1,17 +1,18 @@
 header{
-  background: #8A1538;
+  /* background: #8A1538; */
+  background-color:  #ff914d;
   color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 
-  position:fixed;
+  /* position:fixed; */
   top: 0;
   left: 0;
   z-index: 10;
   width: 100%;
-  height: 20vh;
+  height: 12vh;
   box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.4);
 }
 /* header::after{
@@ -30,7 +31,7 @@ header h1{
   font-size: 1.2rem;
 }
 header nav{
-  padding: 1rem 0;
+  padding: 0rem 0;
 }
 header nav a{
   text-decoration: none;
@@ -67,4 +68,15 @@ header .user-container{
 .user-container span{
   display: inline-block;
   padding: 0 0.5rem;
+}
+
+.btn-login{
+    background-color:  #343a40;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15%;
 }

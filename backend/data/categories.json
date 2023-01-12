@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "63bdb52e606b7d4ebb114728"
+  },
+  "name": "Chino"
+},{
+  "_id": {
+    "$oid": "63bdb547606b7d4ebb114729"
+  },
+  "name": "Mexicano"
+},{
+  "_id": {
+    "$oid": "63bdb569606b7d4ebb11472a"
+  },
+  "name": "Genérico"
+},{
+  "_id": {
+    "$oid": "63bdb57f606b7d4ebb11472b"
+  },
+  "name": "Italiano"
+},{
+  "_id": {
+    "$oid": "63bdb589606b7d4ebb11472c"
+  },
+  "name": "Japonés"
+},{
+  "_id": {
+    "$oid": "63bdb592606b7d4ebb11472d"
+  },
+  "name": "Indio"
+},{
+  "_id": {
+    "$oid": "63bdb5a8606b7d4ebb11472e"
+  },
+  "name": "Turco"
+},{
+  "_id": {
+    "$oid": "63bdb5b5606b7d4ebb11472f"
+  },
+  "name": "Tailandés"
+}]

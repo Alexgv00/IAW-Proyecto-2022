@@ -7,6 +7,7 @@ import restaurantsRoutes from "./routes/restaurantsRoutes.js";
 import commentsRoutes from "./routes/commentsRoutes.js"
 import dishesRoutes from "./routes/dishesRoutes.js";
 import usersRoutes from "./routes/usersRoutes.js";
+import categoriesRoutes from "./routes/categoriesRoutes.js"
 // import mongoURL from "./config/keys.js";
 // import categoriasRoutes from "./routes/categoriasRoutes.js"
 // import estudiantesRoutes from "./routes/estudiantesRoutes.js"
@@ -30,6 +31,7 @@ app.use("/api", restaurantsRoutes);
 app.use("/api", commentsRoutes);
 app.use("/api", dishesRoutes);
 app.use("/api", usersRoutes);
+app.use("/api", categoriesRoutes)
 // app.use("/api", categoriasRoutes);
 // app.use("/api", estudiantesRoutes)
 

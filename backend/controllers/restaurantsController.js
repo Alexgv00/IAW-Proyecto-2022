@@ -46,7 +46,8 @@ export const searchRestaurantsByPrice = async (req, res) => {
 
 // Muestra un restaurants en especifico por su ID
 export const showRestaurantsById = async (req, res) => {
-    const document = await Restaurants.findById(req.params.idRestaurant);
+    const document = await Restaurants.findById(req.params.idRestaurant)
+    .populate('dishes comments category');
 
     if(!document) {
         res.json({mensaje : 'Ese restaurante no existe'});

@@ -1,4 +1,4 @@
-import { URL_API_USERS, HEADERS } from '../constants/http_constants.js';
+import { URL_API_USERS, HEADERS, URL_API_LOGIN} from '../constants/http_constants.js';
 
 export default class UserService {
 
@@ -26,6 +26,16 @@ export default class UserService {
     }
 
     //TODO loginService
+    static login(params) {
+        const options = {
+            method: 'POST',
+            headers: HEADERS,
+            body: JSON.stringify(params)
+        };
+        return fetch(URL_API_LOGIN, options)
+            .then(response => response.json())
+            .catch(error => error)
+    }
 
     static update(params) {
         const options = {

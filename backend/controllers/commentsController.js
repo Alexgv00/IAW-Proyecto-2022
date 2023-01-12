@@ -6,14 +6,14 @@ import Comments from '../models/Comments.js';
 export const showComments = async (req, res) => {
     try {
         // obtener todos los comentarios
-        const documents = await Comments.find({});
+        const documents = await Comments.find({}).populate("user");
         res.json(documents);
     } catch (error) {
         console.log(error);
     }
 };
 
-export const searchCommentes = async (req, res) => {
+export const searchComments = async (req, res) => {
     try {
         // obtener el query de la URL
         const { query } = req.params;
@@ -28,7 +28,7 @@ export const searchCommentes = async (req, res) => {
 
 // Muestra un comentario en especifico por su ID
 export const showCommentById = async (req, res) => {
-    const document = await Comments.findById(req.params.idComment);
+    const document = await Comments.findById(req.params.idComment).populate("user");
 
     if(!document) {
         res.json({mensaje : 'Ese comentario no existe'});

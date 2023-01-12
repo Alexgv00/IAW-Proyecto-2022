@@ -1,12 +1,21 @@
-[{
+[
+  {
   "_id": {
     "$oid": "637ea12df4675f9d7e61add7"
   },
   "name": "Coyunda",
   "description": "Sándwiches, hamburguesas y platos combinados en una extensa nave donde se proyectan los deportes en la pared.",
+  "photo":"coyunda.jpg",
   "price": 15,
-  "stars": 0,
-  "direction": " Camí dels Reis, 209, 07011 Palma, Illes Balears",
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Camí dels Reis, 209, 07011 Palma, Illes Balears",
   "phone": "971 20 98 56",
   "comments": [
     {
@@ -17,5 +26,256 @@
     {
       "$oid": "637ea66ff4675f9d7e61ade5"
     }
-  ]
+  ],
+  "category": {
+    "$oid": "63bdb569606b7d4ebb11472a"
+  }
+},{
+  "_id": {
+    "$oid": "63bdb27b606b7d4ebb114718"
+  },
+  "name": "Xinos restaurante",
+  "description": "Pide tu plato favorito de La Cocina China y te lo llevamos",
+  "photo":"xinos.jpg",
+  "price": 25,
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Cami de la Vileta, 39, 07011 Palma, Illes Balears",
+  "phone": "971 28 83 60",
+  "comments": [
+    {
+      "$oid": "637ea70af4675f9d7e61adec"
+    }
+  ],
+  "dishes": [
+    {
+      "$oid": "637ea66ff4675f9d7e61ade5"
+    }
+  ],
+  "category": {
+    "$oid": "63bdb52e606b7d4ebb114728"
+  }
+},{
+  "_id": {
+    "$oid": "63bdb436606b7d4ebb11471d"
+  },
+  "name": "Restaurante Pura Louzao",
+  "description": "En Pura Louzao podrá disfrutar de diferentes y deliciosos platos, todos preparados con ingredientes de primera calidad.",
+  "photo":"pura-louzao.jpg",
+  "price": 18,
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Avenida Argentina, 59, 07011 Palma, Illes Balears",
+  "phone": "971 23 67 63",
+  "comments": [
+    {
+      "$oid": "637ea70af4675f9d7e61adec"
+    }
+  ],
+  "dishes": [
+    {
+      "$oid": "637ea66ff4675f9d7e61ade5"
+    }
+  ],
+  "category": {
+    "$oid": "63bdb569606b7d4ebb11472a"
+  }
+},{
+  "_id": {
+    "$oid": "63bdb482606b7d4ebb11471e"
+  },
+  "name": "Adrian Quetglas Restaurant",
+  "description": "Cocina de mercado, tradición y vanguardia, unidos a una estética perfeccionista, son ‘la conjunción’ del punto de vista del autor, reflejada en estas dos propuestas: de martes a viernes al mediodía, un menú urbano de 5 pasos, a un precio asequible; por las noches y los sábados al mediodía una degustación de 7 pasos, a un precio razonable.",
+  "photo":"adrian-quetglas.jpg",
+  "price": 60,
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Passeig de Mallorca, 20, 07011 Palma, Illes Balears",
+  "phone": "971 78 11 19",
+  "comments": [
+    {
+      "$oid": "637ea70af4675f9d7e61adec"
+    }
+  ],
+  "dishes": [
+    {
+      "$oid": "637ea66ff4675f9d7e61ade5"
+    }
+  ],
+  "category": {
+    "$oid": "63bdb569606b7d4ebb11472a"
+  }
+},{
+  "_id": {
+    "$oid": "63bdb770606b7d4ebb114739"
+  },
+  "name": "Block House",
+  "description": "Restaurante para todas las edades y todas las necesidades de una persona y empresa",
+  "photo":"block-house.jpg",
+  "price": 19,
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Passeig de Mallorca, 16, 07011 Palma, Illes Balears",
+  "phone": "971 43 41 70",
+  "comments": [
+    {
+      "$oid": "637ea70af4675f9d7e61adec"
+    }
+  ],
+  "dishes": [
+    {
+      "$oid": "637ea66ff4675f9d7e61ade5"
+    }
+  ],
+  "category": {
+    "$oid": "63bdb569606b7d4ebb11472a"
+  }
+},{
+  "_id": {
+    "$oid": "63bdb8e7606b7d4ebb11473a"
+  },
+  "name": "Amayó Trattoria Pizzeria",
+  "description": "El mejor restaurante italiano de la plaza del pilar",
+  "photo":"amayo-trattoria.jpg",
+  "price": 19,
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Carrer de Julià Alvarez, 3, 07011 Palma, Illes Balears",
+  "phone": "971 66 62 41",
+  "comments": [
+    {
+      "$oid": "637ea70af4675f9d7e61adec"
+    }
+  ],
+  "dishes": [
+    {
+      "$oid": "637ea66ff4675f9d7e61ade5"
+    }
+  ],
+  "category": {
+    "$oid": "63bdb57f606b7d4ebb11472b"
+  }
+},{
+  "_id": {
+    "$oid": "63bdb9e0606b7d4ebb11473d"
+  },
+  "name": "Bar Restaurante Can Lluc",
+  "description": "El Bar Restaurante Can Lluc es espacioso, decorado al estilo celler mallorquín con su mobiliario en madera, dispone además de un reservado para sus eventos privados. Su propuesta gastronómica está basada en la tradicional cocina de mallorquina y ofrece desde desayunos de pa amb oli hasta menú diario, además por la noche también dispone de pizzas caseras.",
+  "photo":"can-lluc.jpg",
+  "price": 15,
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Carrer Despuig, 7, 07011 Palma, Illes Balears",
+  "phone": "971 28 01 35",
+  "comments": [
+    {
+      "$oid": "637ea70af4675f9d7e61adec"
+    }
+  ],
+  "dishes": [
+    {
+      "$oid": "637ea66ff4675f9d7e61ade5"
+    }
+  ],
+  "category": {
+    "$oid": "63bdb57f606b7d4ebb11472a"
+  }
+},{
+  "_id": {
+    "$oid": "63bdbc19606b7d4ebb11473e"
+  },
+  "name": "Restaurant Bella Istambul",
+  "description": "Ven a probar el mejor kebab de palma, cocina turca!!!!. El restaurante Bella Istambul se encuentra situado en calle Uetam, es el restaurante con especialidades en comida turca más famoso de Palma de Mallorca. No podrás decir que has comido Kebap si no probaste las especialidades de nuestro restaurante. Además de nuestros exquisitos Kebaps ofrecemos otros platos de nuestra comida tradicional, como son los Kebabs, PIDE, LAHMACUM, DÜRÜM, sin olvidar las pizzas de nuestros platos combiandos. Y después de una buena comida, degusta nuestro Té Turco acompañado de dulces tradicionales. Con un trato amigable y servicio profesional, Bella Istambul es tu opción si buscas comida de calidad con productos frescos (pan de pita artesano, dürüms) elaborados a diario. Disponemos de zona wifi GRATUITA y Canal +",
+  "photo":"bella-istambul.jpg",
+  "price": 17,
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Carrer Uetam, 7, 07011 Palma, Illes Balears",
+  "phone": "971 77 04 14",
+  "comments": [
+    {
+      "$oid": "637ea70af4675f9d7e61adec"
+    }
+  ],
+  "dishes": [
+    {
+      "$oid": "637ea66ff4675f9d7e61ade5"
+    }
+  ],
+  "category": {
+    "$oid": "63bdb5a8606b7d4ebb11472e"
+  }
+},{
+  "_id": {
+    "$oid": "63bdbce3606b7d4ebb114742"
+  },
+  "name": "Hokkaido",
+  "description": "Hokkaido te ofrece la más exquisita variedad de Japonesa que puedes encontrar en Palma. Ven a visitarnos o haz tu pedido online. Verás como te sorprenderemos con nuestras especialidades.",
+  "photo":"hokkaido.jpg",
+  "price": 19,
+  "stars": [
+    {
+      "user": {
+        "$oid": "63bdf06cfb9bd2878c120010"
+      },
+      "value": 4
+    }
+  ],
+  "direction": "Carrer de Jaume Balmes, 6, 07011 Palma, Illes Balears",
+  "phone": "971 90 50 33",
+  "comments": [
+    {
+      "$oid": "637ea70af4675f9d7e61adec"
+    }
+  ],
+  "dishes": [
+    {
+      "$oid": "637ea66ff4675f9d7e61ade5"
+    }
+  ],
+  "category": {
+    "$oid": "63bdb589606b7d4ebb11472c"
+  }
 }]
