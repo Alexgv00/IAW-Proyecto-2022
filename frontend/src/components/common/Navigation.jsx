@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 const Navigation = ({item}) => {
   return (
     <nav>
+      
         {/* <Link to="/" className={item === "home" ? 'active' : 'off'}>Home</Link>
         <Link to="/profile" className={item === "home" ? 'active' : 'off'}>Profile</Link> */}
     </nav>

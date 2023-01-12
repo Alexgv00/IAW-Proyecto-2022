@@ -1,9 +1,10 @@
 header{
-  background: #8A1538;
+  /* background: #8A1538; */
+  background-color:  #ff914d;
   color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 
   /* position:fixed; */
@@ -67,4 +68,15 @@ header .user-container{
 .user-container span{
   display: inline-block;
   padding: 0 0.5rem;
+}
+
+.btn-login{
+    background-color:  #343a40;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15%;
 }
