@@ -32,7 +32,7 @@ export const searchUsers = async (req, res) => {
 
 // Muestra un usaurio en especifico por su ID
 export const showUsersById = async (req, res) => {
-    const document = await Users.findById(req.params.idUsers);
+    const document = await Users.findById(req.params.idUser);
 
     if(!document) {
         res.json({mensaje : 'Ese usuario no existe'});

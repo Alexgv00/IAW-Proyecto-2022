@@ -11,12 +11,20 @@ const Header = ({item}) => {
     <header>
         <h1>FootFinder</h1>
         <Navigation item={item} />
-        <Link to="/users/login">
-          <button className='btn-login'>Login</button>
-        </Link>
+        {userDataContext.nickname == "loading"
+        ? 
+          <Link to="/users/login">
+            <button className='btn-login'>Login</button>
+          </Link>
+      :
         <div className='user-container'>
-            <span className='name-user'>{userDataContext.name}</span>
+          <span className='name-user'>{userDataContext.nickname}</span>
         </div>
+        }
+        {/* <Link to="/users/login">
+          <button className='btn-login'>Login</button>
+        </Link> */}
+        
     </header>
   )
 }

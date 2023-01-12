@@ -1,21 +1,26 @@
 
 # IAW-Proyecto-2022
 
-Proyecto final de primera evaluación IAW con MERN. 
+Proyecto final de primera evaluación IAW con MERN.  
 
-## ¿Quien lo ha hecho?  
+## ¿Quiénes somos?  
 
-Este proyecto final de primera evaluación está hecho por Antonio Ramirez Ballester y Alejandro García Vaquer.
+Este proyecto está creado por Antonio Ramirez Ballester y Alejandro García Vaquer.
 
-## ¿En que consiste?  
+## ¿Que hacemos?  
 
-En el proyecto nos dieron tres opciones a escoger:  
-- [] Gestor de contraseñas
-- [X] Busqueda de restaurantes
-- [] Gestor de peliculas y compra de entradas  
+ Realizamos un proyecto donde poder aplicar nuestros conocimientos adquirido durante la primera etapa del segundo año del ciclo de Grado superior.  
 
-Como se puede apreciar en el proyecto, escogimos la opción del restaurante, pues la considerabamos más accesible a nuestros conocimientos y consideramos que sería algo atractivo de crear.
+ Este proyecto servirá para evaluar y qualificar si, en la etapa del primer trimestre del año 2022-2023, hemos logrado aprender e integrar lo estudiado en una simulación de proyecto.
 
-# Enlace de Git hub
+### ¿Que nos piden?
 
-https://github.com/Alexgv00/IAW-Proyecto-2022.git
+ Para el proyecto nos dieron la opción de escoger entre varias ideas previamente planteadas, entre las que se encuentran:  
+
+- [ ] Gestor de contraseñas.
+- [x] Lista restaurantes.  
+- [ ] Listado peliculas y compra de entradas.
+
+## Enlace de Git hub  
+
+Puedes encontrar nuestro proyecto como: [IAW-Proyecto-2022.git](https://github.com/Alexgv00/IAW-Proyecto-2022.git)  
